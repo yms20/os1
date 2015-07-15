@@ -44,6 +44,8 @@
     <None Include="build.sh" />
     <None Include="run.sh" />
     <None Include="include\types.h" />
+    <None Include="include\util.h" />
+    <None Include="include\idt.h" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="kernel.c" />
@@ -51,5 +53,7 @@
     <Compile Include="include\screen.c" />
     <Compile Include="include\string.c" />
     <Compile Include="include\kb.c" />
+    <Compile Include="include\util.c" />
+    <Compile Include="include\idt.c" />
   </ItemGroup>
 </Project>

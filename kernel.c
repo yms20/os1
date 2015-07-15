@@ -18,8 +18,9 @@ kmain()
 		{
 			halt();
 		}
-
-		print("\n strlength: "); print( "int2string: not implemented yet!" ) ;
+		string lengthstr; 
+		int2str ( strlength (ch), lengthstr);
+		print("\n strlength: "); print( lengthstr ) ;
 		print("\n You entered: "); print (ch);
 	}
 }

@@ -15,4 +15,8 @@ typedef unsigned long long uint64;
 
 typedef char* string;
 
+//takes 32 bit int and devides in 2 16 Bit ints
+#define low_16(address) (uint16)((address) & 0xFFFF)
+#define high_16(address) (uint16)(((address >> 16) & 0xFFFF))
+
 #endif

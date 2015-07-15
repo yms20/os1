@@ -46,6 +46,7 @@
     <None Include="include\types.h" />
     <None Include="include\util.h" />
     <None Include="include\idt.h" />
+    <None Include="include\isr.h" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="kernel.c" />
@@ -55,5 +56,6 @@
     <Compile Include="include\kb.c" />
     <Compile Include="include\util.c" />
     <Compile Include="include\idt.c" />
+    <Compile Include="include\isr.c" />
   </ItemGroup>
 </Project>

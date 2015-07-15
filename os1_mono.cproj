@@ -41,11 +41,15 @@
     <None Include="include\screen.h" />
     <None Include="include\string.h" />
     <None Include="include\system.h" />
-    <None Include="include\types.h" />
     <None Include="build.sh" />
     <None Include="run.sh" />
+    <None Include="include\types.h" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="kernel.c" />
+    <Compile Include="include\system.c" />
+    <Compile Include="include\screen.c" />
+    <Compile Include="include\string.c" />
+    <Compile Include="include\kb.c" />
   </ItemGroup>
 </Project>

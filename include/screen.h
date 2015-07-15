@@ -71,7 +71,7 @@ void printch(char c)
 	switch (c)
 	{
 		case (0x08): 			//Backsapce Key entered
-			if ( cursorX < 0 )
+			if ( cursorX > 0 )
 			{
 				cursorX --;
 				vidmem[(cursorY *sw + cursorX) * sd] = 0x00;
@@ -107,7 +107,8 @@ void printch(char c)
 void print(string ch) 
 {
 	uint16 i = 0; 
-	for (i; i<strlength(ch); i ++)
+	uint16 length = strlength(ch); 
+	for (i; i<length; i ++)
 	{
 		printch(ch[i]);
 	}

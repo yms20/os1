@@ -15,5 +15,10 @@ void outportb(uint16 _port, uint8 _data)
 	__asm__ __volatile__ ("outb %1, %0" : : "dN" (_port), "a" (_data));
 }
 
+void halt() 
+{
+	__asm__ __volatile__ ( "hlt" );
+}
+
 #endif
 

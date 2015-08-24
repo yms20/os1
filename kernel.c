@@ -21,12 +21,17 @@ kmain()
 			print ("\n Current OS1 commads are :  ");
 			print ("\n");
 			print ("\n quit       - ends kernel loop");
+			print ("\n cls        - clear screen");
 			print ("\n numbers    - convert integer to char representation and print");
 			print ("\n interrupt0 - executes a dvision by Zero");
 		}
 		if (strEql(ch,"quit"))
 		{
 			halt();
+		}
+		if (strEql (ch,"cls"))
+		{
+			clearScreen ();
 		}
 		if (strEql (ch, "numbers"))
 		{

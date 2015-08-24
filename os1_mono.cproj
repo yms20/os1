@@ -47,6 +47,7 @@
     <None Include="include\util.h" />
     <None Include="include\idt.h" />
     <None Include="include\isr.h" />
+    <None Include="include\vbe.h" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="kernel.c" />

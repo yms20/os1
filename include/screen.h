@@ -14,7 +14,7 @@ const uint8 sw, sh, sd  ;
 void clearLine(uint8 from, uint8 to);
 //define fucniton s as "external void updateCursor();"
 // put body in screen.c file
-void updateCursor();
+void updateCursor(); 
 
 void clearScreen();
 
